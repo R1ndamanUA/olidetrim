@@ -1142,7 +1142,7 @@ body {
   flex: 0 1 47%;
   display: flex;
   justify-content: end;
-  background: url(/assets/branding/olidetrim/image/olidetrim_kids.webp) no-repeat;
+  background: url(../image/olidetrim_kids.webp) no-repeat;
   background-size: contain;
   background-position: right;
 }
@@ -1150,7 +1150,7 @@ body {
   .brand-info-olidetrim-kids__decor {
     flex: 1 1 100%;
     justify-content: center;
-    background: url(/assets/branding/olidetrim/image/olidetrim_kids_tablet.webp) no-repeat;
+    background: url(../image/olidetrim_kids_tablet.webp) no-repeat;
     height: 752px;
   }
 }
