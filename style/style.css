@@ -1,0 +1,1488 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap");
+body {
+  margin: 0px;
+}
+
+.brand-info-wrapper {
+  font-family: Inter;
+  background: url(/assets/branding/olidetrim/image/decor2_result.webp) 0 97%/100% 2582px no-repeat;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-wrapper {
+    background: url(/assets/branding/olidetrim/image/decor2_tablet2_result.webp) 0 94%/100% no-repeat;
+  }
+}
+@media (max-width: 425.98px) {
+  .brand-info-wrapper {
+    background: url(/assets/branding/olidetrim/image/decor2_mobile_result.webp) 0 94%/100% no-repeat;
+  }
+}
+
+.brand-info-main {
+  max-width: 1288px;
+  margin: 0 auto;
+  background: url(/assets/branding/olidetrim/image/decor1_result.webp) no-repeat;
+  background-position-y: -2px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-main {
+    background: url(/assets/branding/olidetrim/image/decor1_tablet_result.webp) no-repeat;
+    background-position-y: -2px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-main {
+    background: url(/assets/branding/olidetrim/image/decor1_mobile.webp) 0px 128px no-repeat;
+  }
+}
+
+.brand-info-vitamins {
+  display: flex;
+  padding: 34px 69px 42px 69px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px 54px 24px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins {
+    padding: 0px 10px 27px 19px;
+  }
+}
+.brand-info-vitamins__decor {
+  flex: 0 0 50%;
+  align-items: end;
+  justify-content: end;
+  display: flex;
+  padding-bottom: 110px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__decor {
+    flex: 1 1 695px;
+    padding-bottom: 48px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__decor {
+    align-items: start;
+    flex: 1 1 447px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__decor img {
+    padding-bottom: 77px;
+    width: 309px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__decor img {
+    width: auto;
+    padding-top: 20px;
+  }
+}
+.brand-info-vitamins__body {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__body {
+    flex: 1 1 100%;
+  }
+}
+.brand-info-vitamins__title {
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 170.02%;
+  color: #767676;
+  margin: 0;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__title {
+    font-size: 56px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__title {
+    font-size: 27px;
+  }
+}
+.brand-info-vitamins__title span:nth-child(1) {
+  font-weight: 700;
+  font-size: 44px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__title span:nth-child(1) {
+    font-size: 52px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__title span:nth-child(1) {
+    font-size: 21px;
+  }
+}
+.brand-info-vitamins__title span:nth-child(2) {
+  font-weight: 700;
+  font-size: 53px;
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__title span:nth-child(2) {
+    font-size: 31px;
+  }
+}
+.brand-info-vitamins__title span:nth-child(3) {
+  font-weight: 700;
+  font-size: 33px;
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__title span:nth-child(3) {
+    font-size: 14px;
+  }
+}
+.brand-info-vitamins__sub-title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 170.02%;
+  color: #767676;
+  text-align: right;
+  margin: -15px 0px 0px 0px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__sub-title {
+    font-size: 41px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__sub-title {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+.brand-info-vitamins__img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__img {
+    margin-bottom: -20px;
+    margin-top: 39px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__img {
+    margin-top: 24px;
+  }
+}
+.brand-info-vitamins__img img {
+  max-width: 100%;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__img img {
+    height: 471px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__img img {
+    height: auto;
+  }
+}
+.brand-info-vitamins__button {
+  justify-content: center;
+  display: flex;
+}
+.brand-info-vitamins__button a {
+  display: flex;
+  width: 170px;
+  padding: 14.24px 13.4px 15.08px 12.56px;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 124.02%;
+  text-align: center;
+  text-indent: 2px;
+  color: #6d6e71;
+  background: linear-gradient(180deg, #ffe600 0%, #ff7a00 100%);
+  border-radius: 25px;
+  border: 3px solid #ffe600;
+  transition: all 0.3s ease 0s;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-vitamins__button a {
+    font-size: 24px;
+    width: 210px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-vitamins__button a {
+    font-size: 16px;
+    width: 166px;
+    padding: 11.24px 13.4px 11.08px 12.56px;
+  }
+}
+.brand-info-vitamins__button a:hover {
+  scale: 1.05;
+  transition: all 0.3s ease 0s;
+}
+
+.brand-info-find-vitamins {
+  display: flex;
+  flex-direction: column;
+}
+.brand-info-find-vitamins__title {
+  flex: 0 0 100%;
+  margin-bottom: -75px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-find-vitamins__title {
+    margin-bottom: 0px;
+  }
+}
+.brand-info-find-vitamins__title h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 101.02%;
+  text-align: center;
+  text-indent: 2px;
+  color: #ff7a00;
+  text-shadow: 0px 4px 4px #ffffff;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-find-vitamins__title h2 {
+    font-size: 45px;
+    margin: 38px 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-find-vitamins__title h2 {
+    font-size: 26px;
+    margin: 0px 0px;
+  }
+}
+.brand-info-find-vitamins__body {
+  display: flex;
+  margin: 0px 60px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-find-vitamins__body {
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+}
+.brand-info-find-vitamins__for-kids {
+  height: 515.1px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+  justify-content: space-between;
+  background: url(/assets/branding/olidetrim/image/find_kids_bg2.webp) no-repeat;
+  align-items: center;
+  flex-direction: column-reverse;
+  background-position: center;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-find-vitamins__for-kids {
+    background-size: contain;
+    flex: 1 1 100%;
+    height: 615px;
+    margin-bottom: 61px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-find-vitamins__for-kids {
+    background-size: 331px;
+    flex: 1 1 100%;
+    height: 348px;
+    margin-bottom: 0px;
+  }
+}
+.brand-info-find-vitamins__for-adults {
+  height: 515.1px;
+  display: flex;
+  flex: 1 1 50%;
+  justify-content: space-between;
+  flex-direction: column;
+  background: url(/assets/branding/olidetrim/image/find_adult_bg2.webp) no-repeat;
+  align-items: center;
+  flex-direction: column-reverse;
+  background-position: center;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-find-vitamins__for-adults {
+    background-size: contain;
+    flex: 1 1 100%;
+    height: 615px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-find-vitamins__for-adults {
+    background-size: 331px;
+    flex: 1 1 100%;
+    height: 322px;
+    margin-bottom: 0px;
+  }
+}
+
+.brand-info-buy-button {
+  width: 247px;
+  background: linear-gradient(180deg, #ffe600 0%, #ff7a00 100%);
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 124.02%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding: 17.24px 55px 18.72px 54.26px;
+  border: 3px solid #ffe600;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-buy-button {
+    font-size: 22px;
+    width: 290px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-buy-button {
+    font-size: 16px;
+    width: 195px;
+    padding: 11.24px 12px;
+    justify-content: center;
+  }
+}
+.brand-info-buy-button:hover {
+  scale: 1.05;
+  transition: all 0.3s ease 0s;
+}
+
+.brand-info-buy-button-left {
+  margin-bottom: 20px;
+}
+@media (max-width: 767.98px) {
+  .brand-info-buy-button-left {
+    margin-bottom: 19px;
+    justify-content: center;
+  }
+}
+
+.brand-info-buy-button-right {
+  margin-bottom: 20px;
+}
+@media (max-width: 767.98px) {
+  .brand-info-buy-button-right {
+    margin-bottom: 3px;
+    justify-content: center;
+  }
+}
+
+.brand-info-video-block {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+  padding-top: 75px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-video-block {
+    margin-top: 660px;
+    padding-top: 26px;
+    padding-right: 0px;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-video-block {
+    flex-wrap: wrap;
+    margin-top: 253px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+}
+.brand-info-video-block__body {
+  flex: 0 1 364px;
+  padding-right: 20px;
+  background: rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 1023.98px) {
+  .brand-info-video-block__body {
+    flex: 0 1 400px;
+    background: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-video-block__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-video-block__body img {
+    width: 370px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-video-block__body img {
+    width: 190px;
+  }
+}
+.brand-info-video-block__body p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #6d6e71;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-video-block__body p {
+    margin: 15px 0px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-video-block__body p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 20px 0px 0px 0px;
+    padding-bottom: 7px;
+  }
+}
+.brand-info-video-block__body p span {
+  color: #ff7a00;
+}
+@media (max-width: 767.98px) {
+  .brand-info-video-block__video {
+    padding-top: 17px;
+  }
+}
+.brand-info-video-block__video video {
+  object-fit: cover;
+  border-radius: 25px;
+  max-width: 202px;
+  max-height: 360px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-video-block__video video {
+    max-height: 430px;
+    max-width: 242px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-video-block__video video {
+    max-height: 358px;
+    max-width: 200px;
+  }
+}
+
+.brand-info-jcs {
+  justify-content: start;
+}
+
+.brand-info-adventages {
+  margin: 90px 50px 0px 50px;
+  display: flex;
+  position: relative;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 70px 50px 109px 50px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages {
+    flex-wrap: wrap;
+    gap: 28px;
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0px;
+  }
+}
+.brand-info-adventages__left-block {
+  flex: 0 0 46%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__left-block {
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.brand-info-adventages__title {
+  padding: 0px 0px 20px 0px;
+  margin: 0px;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 140.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__title {
+    padding: 0px 0px 21px 0px;
+    font-size: 44px;
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__title {
+    padding: 30px 0px 8px 0px;
+    font-size: 26px;
+    text-align: center;
+  }
+}
+.brand-info-adventages__body {
+  flex: 0 0 54%;
+  position: relative;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__body {
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__body {
+    padding: 0px 19px;
+    margin: 0px;
+    flex: 0 1 100%;
+  }
+}
+.brand-info-adventages__comment {
+  position: absolute;
+  bottom: 0;
+  right: -32px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 100%;
+  text-align: right;
+  text-indent: 2px;
+  color: #000000;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__comment {
+    right: 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__comment {
+    right: 15px;
+    font-size: 6px;
+  }
+}
+.brand-info-adventages__row1 {
+  display: flex;
+  align-items: center;
+}
+.brand-info-adventages__row1 img {
+  max-width: 105px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row1 img {
+    max-width: 126px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row1 img {
+    max-width: 50px;
+  }
+}
+.brand-info-adventages__row1-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-left: 30px;
+}
+.brand-info-adventages__row1-text span {
+  font-weight: 700;
+  color: #ff8a00;
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row1-text {
+    font-size: 13px;
+    padding-left: 15px;
+    margin: 0px;
+  }
+}
+.brand-info-adventages__row2 {
+  margin-left: 106px;
+  margin-top: -23px;
+  align-items: center;
+  display: flex;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row2 {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row2 {
+    margin-left: 47px;
+    margin-top: -15px;
+  }
+}
+.brand-info-adventages__row2 img {
+  max-width: 105px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row2 img {
+    max-width: 126px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row2 img {
+    max-width: 50px;
+  }
+}
+.brand-info-adventages__row2-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-left: 30px;
+}
+.brand-info-adventages__row2-text span:nth-child(1) {
+  color: #6d6e71;
+  font-weight: 700;
+}
+.brand-info-adventages__row2-text span:nth-child(2) {
+  color: #ff8a00;
+  font-weight: 700;
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row2-text {
+    font-size: 13px;
+    padding-left: 16px;
+  }
+}
+.brand-info-adventages__row3 {
+  margin-left: 53px;
+  align-items: center;
+  display: flex;
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row3 {
+    margin-left: 22px;
+    margin-top: -6px;
+  }
+}
+.brand-info-adventages__row3 img {
+  max-width: 105px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row3 img {
+    max-width: 126px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row3 img {
+    max-width: 50px;
+  }
+}
+.brand-info-adventages__row3-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-left: 60px;
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row3-text {
+    font-size: 13px;
+    padding-left: 30px;
+  }
+}
+.brand-info-adventages__row4 {
+  margin-left: 106px;
+  margin-top: -7px;
+  align-items: center;
+  display: flex;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row4 {
+    margin-top: -12px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row4 {
+    margin-left: 47px;
+    margin-top: -2px;
+  }
+}
+.brand-info-adventages__row4 img {
+  max-width: 105px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row4 img {
+    max-width: 126px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row4 img {
+    max-width: 50px;
+  }
+}
+.brand-info-adventages__row4-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-left: 30px;
+}
+.brand-info-adventages__row4-text span {
+  font-weight: 700;
+  color: #ff8a00;
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row4-text {
+    font-size: 13px;
+    padding-left: 16px;
+  }
+}
+.brand-info-adventages__row5 {
+  align-items: center;
+  margin-top: -15px;
+  display: flex;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row5 {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row5 {
+    margin-top: -9px;
+  }
+}
+.brand-info-adventages__row5 img {
+  max-width: 105px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-adventages__row5 img {
+    max-width: 126px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row5 img {
+    max-width: 50px;
+  }
+}
+.brand-info-adventages__row5-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-left: 30px;
+}
+.brand-info-adventages__row5-text span {
+  font-weight: 700;
+  color: #ff8a00;
+}
+@media (max-width: 767.98px) {
+  .brand-info-adventages__row5-text {
+    font-size: 13px;
+    padding-left: 16px;
+  }
+}
+
+.brand-info-olidetrim2000 {
+  display: flex;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000 {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 126px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000 {
+    margin-top: 31px;
+    margin-bottom: 0px;
+  }
+}
+.brand-info-olidetrim2000__decor {
+  flex: 0 1 50%;
+  display: flex;
+  justify-content: end;
+  padding-left: 20px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000__decor {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000__img img {
+    width: 635px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000__img img {
+    width: 100%;
+  }
+}
+.brand-info-olidetrim2000__body {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 50%;
+  justify-content: end;
+  margin-left: 80px;
+  max-width: 460px;
+  padding-bottom: 13px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000__body {
+    flex: 1 1 100%;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 28px 0px 26px 0px;
+    margin-top: 23px;
+    margin-left: 0px;
+    max-width: none;
+    align-items: center;
+  }
+}
+@media (max-width: 1287.98px) {
+  .brand-info-olidetrim2000__body {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000__body {
+    padding: 22px 20px 15px 40px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000__body_wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+  }
+}
+.brand-info-olidetrim2000__title {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 101.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+  margin-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000__title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+}
+.brand-info-olidetrim2000__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 101.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000__text {
+    font-size: 14px;
+  }
+}
+.brand-info-olidetrim2000__text span {
+  font-weight: 900;
+  font-size: 28px;
+  color: #ff7a00;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000__text span {
+    font-size: 18px;
+  }
+}
+.brand-info-olidetrim2000__list {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 101.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000__list {
+    margin: 14px 0px px 28px 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000__list {
+    font-size: 14px;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 0px;
+  }
+}
+.brand-info-olidetrim2000__item {
+  padding-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim2000__item {
+    padding-bottom: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim2000__item {
+    padding-bottom: 14px;
+  }
+}
+
+.brand-info-button-2000 {
+  justify-content: start;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-button-2000 {
+    justify-content: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-button-2000 a {
+    font-size: 14px;
+    width: 150px;
+    padding: 11.24px 9.4px 11.08px 9.56px;
+  }
+}
+
+.brand-info-olidetrim4000 {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim4000 {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim4000 {
+    gap: 15px;
+    margin-bottom: 0px;
+  }
+}
+.brand-info-olidetrim4000__body {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 80px 80px 0px;
+  padding: 20px 10px 14px 50px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim4000__body {
+    padding: 45px 62px 14px 100px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim4000__body {
+    padding: 10px 0px;
+    padding-left: 24px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 0px;
+  }
+}
+.brand-info-olidetrim4000__title {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 32px;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim4000__title {
+    font-size: 35px;
+    padding-bottom: 21px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim4000__title {
+    font-size: 24px;
+    padding-bottom: 8px;
+  }
+}
+.brand-info-olidetrim4000__text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 145.454545%; /* 32/22 */
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-bottom: 10px;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim4000__text {
+    font-size: 12px;
+    padding-bottom: 0px;
+  }
+}
+.brand-info-olidetrim4000__text span {
+  font-size: 28px;
+  font-weight: 900;
+  color: #ff7a00;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim4000__text span {
+    font-size: 18px;
+  }
+}
+.brand-info-olidetrim4000__list {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 133.333333%; /* 32/24 */
+  text-indent: 2px;
+  color: #6d6e71;
+  max-width: 642px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim4000__list {
+    max-width: 544px;
+    margin: 10px 0px 24px 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim4000__list {
+    font-size: 14px;
+    padding-left: 24px;
+    line-height: 110.333333%; /* 32/24 */
+  }
+}
+.brand-info-olidetrim4000__list :not(:last-child) {
+  padding-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim4000__decor {
+    display: flex;
+    justify-content: center;
+  }
+}
+.brand-info-olidetrim4000__img {
+  padding-right: 77px;
+}
+@media (max-width: 1249.98px) {
+  .brand-info-olidetrim4000__img {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim4000__img img {
+    width: 645px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim4000__img img {
+    width: 100%;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim4000__img {
+    padding-right: 0px;
+  }
+}
+
+.brand-info-button-4000 {
+  justify-content: start;
+  padding-left: 30px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-button-4000 {
+    justify-content: center;
+    padding-left: 0px;
+  }
+}
+
+.brand-info-olidetrim-kids {
+  display: flex;
+  margin-top: 6px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.brand-info-olidetrim-kids__decor {
+  flex: 0 1 47%;
+  display: flex;
+  justify-content: end;
+  background: url(/assets/branding/olidetrim/image/olidetrim_kids.webp) no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids__decor {
+    flex: 1 1 100%;
+    justify-content: center;
+    background: url(/assets/branding/olidetrim/image/olidetrim_kids_tablet.webp) no-repeat;
+    height: 752px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim-kids__decor {
+    height: 386px;
+    background-size: contain;
+    background-position: center;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids__img {
+    z-index: 2;
+  }
+}
+@media (min-width: 1023.98px) {
+  .brand-info-olidetrim-kids__img img {
+    width: 546px;
+  }
+}
+.brand-info-olidetrim-kids__body {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 50%;
+  margin-left: 20px;
+  max-width: 622px;
+  padding-bottom: 13px;
+  padding-right: 20px;
+}
+.brand-info-olidetrim-kids__body_wrapper {
+  max-width: 622px;
+  padding: 0px 0px 0px 18px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids__body_wrapper {
+    padding: 0px 0px 0px 29px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids__body {
+    flex: 1 1 100%;
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: 0px;
+    background: rgba(255, 255, 255, 0.6);
+    max-width: none;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim-kids__body {
+    background: rgba(255, 255, 255, 0.6);
+    margin-top: -63px;
+  }
+}
+.brand-info-olidetrim-kids__title {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 101.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+  margin-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids__title {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim-kids__title {
+    font-size: 24px;
+  }
+}
+.brand-info-olidetrim-kids__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 101.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim-kids__text {
+    font-size: 16px;
+    padding-bottom: 16px;
+  }
+}
+.brand-info-olidetrim-kids__text span {
+  font-weight: 900;
+  font-size: 28px;
+  color: #ff7a00;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim-kids__text span {
+    font-size: 18px;
+  }
+}
+.brand-info-olidetrim-kids__list {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 124.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+  margin: 24px 0px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids__list {
+    margin: 24px 0px 45px 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim-kids__list {
+    font-size: 14px;
+    margin: 0px;
+    padding-left: 24px;
+    line-height: 103.02%;
+  }
+}
+.brand-info-olidetrim-kids__item {
+  padding-bottom: 10px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim-kids__item {
+    padding-bottom: 16px;
+  }
+}
+
+.brand-info-button-kids {
+  justify-content: start;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-button-kids {
+    justify-content: center;
+  }
+}
+
+.brand-info-olidetrim1000 {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim1000 {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000 {
+    gap: 0px;
+    margin-bottom: 162px;
+  }
+}
+.brand-info-olidetrim1000__body {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 80px 80px 0px;
+  padding: 36px 10px 14px 50px;
+  margin-top: 120px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim1000__body {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000__body {
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim1000__body_wrapper {
+    max-width: 530px;
+    padding: 36px 10px 14px 35px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000__body_wrapper {
+    padding: 45px 10px 14px 35px;
+  }
+}
+.brand-info-olidetrim1000__title {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 32px;
+  text-indent: 2px;
+  color: #6d6e71;
+  padding-bottom: 10px;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000__title {
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+}
+.brand-info-olidetrim1000__text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-indent: 2px;
+  color: #6d6e71;
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000__text {
+    font-size: 17px;
+  }
+}
+.brand-info-olidetrim1000__text span {
+  font-size: 28px;
+  font-weight: 900;
+  color: #ff7a00;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim1000__text span {
+    font-size: 29px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000__text span {
+    font-size: 16px;
+  }
+}
+.brand-info-olidetrim1000__list {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-indent: 2px;
+  color: #6d6e71;
+  max-width: 642px;
+  margin: 10px 0px 30px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim1000__list {
+    margin: 10px 0px 31px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000__list {
+    font-size: 14px;
+    line-height: 124%;
+    padding-left: 22px;
+    margin: 0px;
+  }
+}
+.brand-info-olidetrim1000__list :not(:last-child) {
+  padding-bottom: 10px;
+}
+.brand-info-olidetrim1000__decor {
+  margin-top: 39px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim1000__img {
+    display: flex;
+    justify-content: end;
+    margin-top: -14px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .brand-info-olidetrim1000__img img {
+    width: 695px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-olidetrim1000__img img {
+    width: 100%;
+  }
+}
+
+.brand-info-button-1000 {
+  justify-content: start;
+  padding-left: 30px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-button-1000 {
+    justify-content: center;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-button-1000 {
+    margin-top: 25px;
+  }
+}
+
+.brand-info-description {
+  margin: 162px 0px 47px;
+  display: flex;
+  justify-content: end;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-description {
+    margin: 524px 0px 47px;
+    justify-content: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-description {
+    margin: 0px;
+  }
+}
+.brand-info-description p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 124.02%;
+  text-indent: 2px;
+  color: #6d6e71;
+  max-width: 776px;
+  padding: 37px 128px 45px 0px;
+  margin: 0px;
+}
+@media (max-width: 1023.98px) {
+  .brand-info-description p {
+    padding: 38px 23px 25px 42px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand-info-description p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 424.98px) {
+  .brand-info-description p {
+    font-size: 5px;
+  }
+}
