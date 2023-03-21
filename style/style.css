@@ -5,34 +5,34 @@ body {
 
 .brand-info-wrapper {
   font-family: Inter;
-  background: url(/assets/branding/olidetrim/image/decor2_result.webp) 0 97%/100% 2582px no-repeat;
+  background: url(../image/decor2_result.webp) 0 97%/100% 2582px no-repeat;
 }
 @media (max-width: 1023.98px) {
   .brand-info-wrapper {
-    background: url(/assets/branding/olidetrim/image/decor2_tablet2_result.webp) 0 94%/100% no-repeat;
+    background: url(../image/decor2_tablet2_result.webp) 0 94%/100% no-repeat;
   }
 }
 @media (max-width: 425.98px) {
   .brand-info-wrapper {
-    background: url(/assets/branding/olidetrim/image/decor2_mobile_result.webp) 0 94%/100% no-repeat;
+    background: url(../image/decor2_mobile_result.webp) 0 94%/100% no-repeat;
   }
 }
 
 .brand-info-main {
   max-width: 1288px;
   margin: 0 auto;
-  background: url(/assets/branding/olidetrim/image/decor1_result.webp) no-repeat;
+  background: url(../image/decor1_result.webp) no-repeat;
   background-position-y: -2px;
 }
 @media (max-width: 1023.98px) {
   .brand-info-main {
-    background: url(/assets/branding/olidetrim/image/decor1_tablet_result.webp) no-repeat;
+    background: url(../image/decor1_tablet_result.webp) no-repeat;
     background-position-y: -2px;
   }
 }
 @media (max-width: 767.98px) {
   .brand-info-main {
-    background: url(/assets/branding/olidetrim/image/decor1_mobile.webp) 0px 128px no-repeat;
+    background: url(../image/decor1_mobile.webp) 0px 128px no-repeat;
   }
 }
 
@@ -280,7 +280,7 @@ body {
   flex-direction: column;
   flex: 1 1 50%;
   justify-content: space-between;
-  background: url(/assets/branding/olidetrim/image/find_kids_bg2.webp) no-repeat;
+  background: url(../image/find_kids_bg2.webp) no-repeat;
   align-items: center;
   flex-direction: column-reverse;
   background-position: center;
@@ -307,7 +307,7 @@ body {
   flex: 1 1 50%;
   justify-content: space-between;
   flex-direction: column;
-  background: url(/assets/branding/olidetrim/image/find_adult_bg2.webp) no-repeat;
+  background: url(../image/find_adult_bg2.webp) no-repeat;
   align-items: center;
   flex-direction: column-reverse;
   background-position: center;
